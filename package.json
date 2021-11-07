@@ -43,7 +43,8 @@
     "redux": "^4.1.1",
     "remove": "^0.1.5",
     "remove-node-modules": "^1.7.6",
-    "utils-js": "^0.1.1"
+    "utils-js": "^0.1.1",
+    "ws": "^8.2.3"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
@@ -52,7 +53,7 @@
     "nodemon": "^2.0.14"
   },
   "engines": {
-    "node": "12.4.0",
-    "npm": "6.9.0"
+    "node": "v16.3.0",
+    "npm": "7.16.0"
   }
 }
