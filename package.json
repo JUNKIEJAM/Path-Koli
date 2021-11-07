@@ -1,0 +1,57 @@
+{
+  "name": "amazon",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUNKIEJAM/E-COMMERCE_REACT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JUNKIEJAM/E-COMMERCE_REACT/issues"
+  },
+  "homepage": "https://github.com/JUNKIEJAM/E-COMMERCE_REACT#readme",
+  "dependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
+    "async-file": "^2.0.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cli-ux": "^4.9.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async": "^0.1.3",
+    "express-async-handler": "^1.2.0",
+    "forever": "^4.0.1",
+    "got": "^9.6.0",
+    "heroku": "^7.59.1",
+    "joi-objectid": "^4.0.2",
+    "jsonschema": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^4.2.8",
+    "node-modules": "^1.0.1",
+    "object": "^0.1.1",
+    "phoenix": "^1.6.2",
+    "react-redux": "^7.2.5",
+    "redux": "^4.1.1",
+    "remove": "^0.1.5",
+    "remove-node-modules": "^1.7.6",
+    "utils-js": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.26.0",
+    "nodemon": "^2.0.14"
+  },
+  "engines": {
+    "node": "16.3.0",
+    "npm": "7.16.0"
+  }
+}
