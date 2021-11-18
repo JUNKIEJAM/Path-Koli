@@ -1,2 +1,2 @@
-web: node dist/server.js
+web: node --experimental-modules backend/server.js
 
