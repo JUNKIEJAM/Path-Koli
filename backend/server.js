@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/pathkoli', {
 }
 )
 .then(
-console.log("Connected to Database");
+console.log("Connected to Database")
 )
 
 .catch(err=>console.err);
