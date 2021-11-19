@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JUNKIEJAM/E-COMMERCE_REACT.git"
+    "url": "git+https://github.com/JUNKIEJAM/Path-Koli.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JUNKIEJAM/E-COMMERCE_REACT/issues"
+    "url": "https://github.com/JUNKIEJAM/Path-Koli/issues"
   },
-  "homepage": "https://github.com/JUNKIEJAM/E-COMMERCE_REACT#readme",
+  "homepage": "https://github.com/JUNKIEJAM/Path-Koli#readme",
   "dependencies": {
     "@heroku-cli/plugin-buildpacks": "^7.54.0",
     "@heroku/buildpack-registry": "^1.0.1",
