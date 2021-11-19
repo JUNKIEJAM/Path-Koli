@@ -16,7 +16,14 @@ mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/pathkoli', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
-});
+}
+)
+.then(
+console.log("Connected to Database");
+)
+
+.catch(err=>console.err);
+
 
 app.use('/api/users', userRouter);
 app.use('/api/products', productRouter);
